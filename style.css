@@ -1,0 +1,91 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 10%;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff8c8c;
+}
+
+/* Illustration styling */
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
